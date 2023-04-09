@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\MediatrPerformance\\MediatrPerformance.csproj": {}
+    "c:\\Projects\\MediatrPerformance\\MediatrPerformance.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\MediatrPerformance\\MediatrPerformance.csproj": {
+    "c:\\Projects\\MediatrPerformance\\MediatrPerformance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\MediatrPerformance\\MediatrPerformance.csproj",
+        "projectUniqueName": "c:\\Projects\\MediatrPerformance\\MediatrPerformance.csproj",
         "projectName": "MediatrPerformance",
-        "projectPath": "C:\\Projects\\MediatrPerformance\\MediatrPerformance.csproj",
+        "projectPath": "c:\\Projects\\MediatrPerformance\\MediatrPerformance.csproj",
         "packagesPath": "C:\\Users\\e945468\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\MediatrPerformance\\obj\\",
+        "outputPath": "c:\\Projects\\MediatrPerformance\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
