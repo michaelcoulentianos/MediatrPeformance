@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zyVucdR5FVbw7pycjssBDNJErpXEqaPdAA19JQnu/agTUwkC26FAV5tghpPJgUES7ERx31Mz+YXqY97qU7s8SQ==",
+  "dgSpecHash": "5iD3JKNHr/taivdN6588QDzgqSa2X87R5TdD5BBRdeYZ7twUc9YnAr5Yjan3Y2hZNKZVZ9R1LDVUMlzM+uL8Ew==",
   "success": true,
-  "projectFilePath": "c:\\Projects\\MediatrPerformance\\MediatrPerformance.csproj",
+  "projectFilePath": "C:\\Projects\\MediatrPerformance\\MediatrPerformance.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\e945468\\.nuget\\packages\\benchmarkdotnet\\0.13.5\\benchmarkdotnet.0.13.5.nupkg.sha512",
     "C:\\Users\\e945468\\.nuget\\packages\\benchmarkdotnet.annotations\\0.13.5\\benchmarkdotnet.annotations.0.13.5.nupkg.sha512",

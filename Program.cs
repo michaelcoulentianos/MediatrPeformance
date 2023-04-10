@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Hosting;
 using MediatR;
 
+BenchmarkRunner.Run<MediatrBenchmark>();
+
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -20,8 +22,6 @@ builder.Services.AddMediatR(cfg =>
 });
 
 var app = builder.Build();
-BenchmarkRunner.Run<MediatrBenchmark>();
-
 
 
 if (app.Environment.IsDevelopment())

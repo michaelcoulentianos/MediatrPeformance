@@ -1,0 +1,6 @@
+{
+    "git.enabled": true,
+    "git.fetchOnPull": true,
+    "git.verboseCommit": true,
+    "git.allowForcePush": true
+}

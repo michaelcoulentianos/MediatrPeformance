@@ -1,6 +1,5 @@
 namespace MediatrPerformance;
 using BenchmarkDotNet.Attributes;
-using BenchmarkDotNet.Running;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -11,7 +10,10 @@ public class MediatrBenchmark
     private readonly ExampleService _exampleService = new();
     public MediatrBenchmark()
     {
-        var services = new ServiceCollection();
+        var services = new ServiceCollection().AddMediatR(cfg =>
+        {
+            cfg.RegisterServicesFromAssemblies(typeof(MediatrBenchmark).Assembly);
+        });
         var serviceProvider = services.BuildServiceProvider();
         _mediator = serviceProvider!.GetRequiredService<IMediator>();
     }

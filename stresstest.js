@@ -10,7 +10,7 @@ export const options = {
 };
 
 export default () => {
-  const res = http.get('http://localhost:5000/mediatr/1');
+  const res = http.get('http://localhost:5000/service/1');
 
   check(res, {
     'is status 200': (r) => r.status === 200,
